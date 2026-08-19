@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+
+# 运行时 / 构建产物
+.nnunet_env/          # 自动创建的 nnUNet 运行环境（体积大，不入库）
+.tmp/
+dist/
+build/
+*.spec
+*.log
+
+# 模型权重（体积大，不入库；已随 Release 便携版压缩包分发）
+models/
+
+# 其它
+preview/
+.obsidian/

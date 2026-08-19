@@ -1,0 +1,68 @@
+[
+  {
+    "id": "bc_3d",
+    "name": "身体成分-3D",
+    "model_folder": "D:\\LSQ\\Python\\AI\\models\\Dataset002_Body\\nnUNetTrainer__nnUNetPlans__3d_fullres",
+    "checkpoint": "checkpoint_final.pth",
+    "folds": [
+      "all"
+    ],
+    "device": "auto",
+    "labels": {
+      "1": "内脏脂肪",
+      "2": "皮下脂肪",
+      "3": "骨骼",
+      "4": "骨骼肌",
+      "5": "肌间脂肪"
+    }
+  },
+  {
+    "id": "bc_2d",
+    "name": "身体成分-2D",
+    "model_folder": "D:\\LSQ\\Python\\AI\\models\\Dataset002_Body\\nnUNetTrainer__nnUNetPlans__2d",
+    "checkpoint": "checkpoint_final.pth",
+    "folds": [
+      "all"
+    ],
+    "device": "auto",
+    "labels": {
+      "1": "内脏脂肪",
+      "2": "皮下脂肪",
+      "3": "骨骼",
+      "4": "骨骼肌",
+      "5": "肌间脂肪"
+    }
+  },
+  {
+    "id": "muscle_3d",
+    "name": "肌肉群-3D",
+    "model_folder": "D:\\LSQ\\Python\\AI\\models\\Dataset001_Musule\\nnUNetTrainer__nnUNetPlans__3d_fullres",
+    "checkpoint": "checkpoint_final.pth",
+    "folds": [
+      "all"
+    ],
+    "device": "auto",
+    "labels": {
+      "1": "腰大肌",
+      "2": "腹直肌",
+      "3": "腰方肌",
+      "4": "竖脊肌"
+    }
+  },
+  {
+    "id": "muscle_2d",
+    "name": "肌肉群-2D",
+    "model_folder": "D:\\LSQ\\Python\\AI\\models\\Dataset001_Musule\\nnUNetTrainer__nnUNetPlans__2d",
+    "checkpoint": "checkpoint_final.pth",
+    "folds": [
+      "all"
+    ],
+    "device": "auto",
+    "labels": {
+      "1": "腰大肌",
+      "2": "腹直肌",
+      "3": "腰方肌",
+      "4": "竖脊肌"
+    }
+  }
+]

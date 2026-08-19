@@ -1,0 +1,9 @@
+PySide6>=6.5
+numpy
+pandas
+openpyxl
+SimpleITK
+pydicom
+# 界面②自动分割需要（建议在你训练 nnUNet 的环境安装）：
+# nnunetv2
+# torch
